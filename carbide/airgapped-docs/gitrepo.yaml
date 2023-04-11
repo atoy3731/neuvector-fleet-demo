@@ -7,6 +7,6 @@ spec:
   repo: https://github.com/atoy3731/fleet-security-demo.git
   branch: rfed-us
   targets:
-  - clusterGroup: carbide
+  - clusterGroup: airgapped-docs
   paths:
   - "./carbide/airgapped-docs/helm"
