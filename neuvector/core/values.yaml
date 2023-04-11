@@ -1,6 +1,6 @@
 global:
   cattle:
-    url: https://rancher-aws.atoy.dev
+    url: https://rancher.rfed.us
 
 docker:
   enabled: false
