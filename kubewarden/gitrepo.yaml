@@ -5,11 +5,11 @@ metadata:
   namespace: fleet-default
 spec:
   repo: https://github.com/atoy3731/fleet-security-demo.git
-  branch: rfed-us
+  branch: kube-lol
   targets:
   - clusterGroup: secured
   paths:
-  - "./kubewarden/cert-manager"
+  # - "./kubewarden/cert-manager"
   - "./kubewarden/kubewarden/crds"
   - "./kubewarden/kubewarden/controller"
   - "./kubewarden/kubewarden/defaults"
