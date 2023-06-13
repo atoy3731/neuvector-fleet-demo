@@ -1,7 +1,12 @@
 defaultNamespace: kubewarden
+
+labels:
+  app: kubewarden-policies
+
 kustomize:
   dir: ./resources
+
 dependsOn:
-  - name: kubewarden-kubewarden-kubewarden-crds
-  - name: kubewarden-kubewarden-kubewarden-controller
-  - name: kubewarden-kubewarden-kubewarden-defaults
+  - selector:
+      matchLabels:
+        app: kubewarden-defaults

@@ -1,8 +1,15 @@
 defaultNamespace: kubewarden
+
+labels:
+  app: kubewarden-defaults
+
 helm:
   repo: https://charts.kubewarden.io
   chart: kubewarden-defaults
   version: 1.5.5
   releaseName: kubewarden-defaults
+
 dependsOn:
-  - name: kubewarden-kubewarden-kubewarden-controller
+  - selector:
+      matchLabels:
+        app: kubewarden-controller

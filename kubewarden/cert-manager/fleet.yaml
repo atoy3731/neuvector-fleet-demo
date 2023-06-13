@@ -1,4 +1,8 @@
 defaultNamespace: cert-manager
+
+labels:
+  app: kubewarden-cert-manager
+
 helm:
   repo: https://charts.jetstack.io
   chart: cert-manager
