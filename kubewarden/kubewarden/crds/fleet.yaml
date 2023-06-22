@@ -12,4 +12,4 @@ helm:
 dependsOn:
   - selector:
       matchLabels:
-        app: kubewarden-cert-manager
+        app: cert-manager
