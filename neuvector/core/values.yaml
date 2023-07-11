@@ -9,15 +9,17 @@ k3s:
 controller:
   ranchersso:
     enabled: true
+manager:
   env:
-  - name: "CUSTOM_PAGE_HEADER_COLOR"
-    value: "#3a923c"
-  - name: "CUSTOM_PAGE_HEADER_CONTENT"
-    value: "VU5DTEFTU0lGSUVEIC8vIERFTU8gRU5WCg=="
-  - name: "CUSTOM_PAGE_FOOTER_COLOR"
-    value: "#3a923c"
-  - name: "CUSTOM_PAGE_FOOTER_CONTENT"
-    value: "VU5DTEFTU0lGSUVEIC8vIERFTU8gRU5WCg=="
+    envs:
+    - name: "CUSTOM_PAGE_HEADER_COLOR"
+      value: "#3a923c"
+    - name: "CUSTOM_PAGE_HEADER_CONTENT"
+      value: "VU5DTEFTU0lGSUVEIC8vIERFTU8gRU5WCg=="
+    - name: "CUSTOM_PAGE_FOOTER_COLOR"
+      value: "#3a923c"
+    - name: "CUSTOM_PAGE_FOOTER_CONTENT"
+      value: "VU5DTEFTU0lGSUVEIC8vIERFTU8gRU5WCg=="
 
 crdwebhook:
   enabled: false
