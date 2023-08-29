@@ -7,7 +7,10 @@ spec:
   repo: https://github.com/atoy3731/fleet-security-demo.git
   branch: snow
   targets:
-  - clusterGroup: secured
+  - name: secured
+    clusterSelector:
+      matchLabels:
+        security: enabled
   paths:
   - "./neuvector/crd"
   - "./neuvector/core"
