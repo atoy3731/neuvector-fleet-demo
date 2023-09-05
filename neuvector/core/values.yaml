@@ -1,6 +1,6 @@
 global:
   cattle:
-    url: https://rancher.snow.atoy.lol
+    url: https://rancher.azure.edge-demo.lol
 
 docker:
   enabled: false
