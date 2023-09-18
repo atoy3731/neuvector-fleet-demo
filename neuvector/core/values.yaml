@@ -1,6 +1,6 @@
 global:
   cattle:
-    url: https://rancher.azure.edge-demo.lol
+    url: https://edge-ranc-ranchere-i487sbko7vy5-1461032159.us-gov-east-1.elb.amazonaws.com
 
 docker:
   enabled: false

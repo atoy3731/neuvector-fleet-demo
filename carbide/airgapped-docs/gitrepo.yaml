@@ -5,7 +5,7 @@ metadata:
   namespace: fleet-default
 spec:
   repo: https://github.com/atoy3731/fleet-security-demo.git
-  branch: azure-edge
+  branch: aws-edge
   targets:
   - clusterGroup: airgapped-docs
   paths:
