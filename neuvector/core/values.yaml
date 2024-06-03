@@ -9,6 +9,11 @@ k3s:
 controller:
   ranchersso:
     enabled: true
+  federation:
+    managedsvc:
+      type: NodePort
+    mastersvc:
+      type: NodePort
 manager:
   env:
     envs:
