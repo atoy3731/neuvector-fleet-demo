@@ -1,6 +1,6 @@
 global:
   cattle:
-    url: https://rancher.kube.lol
+    url: https://demo-rancher.kube.lol
 
 docker:
   enabled: false
